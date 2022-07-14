@@ -8,4 +8,4 @@ st.subheader("MECHANICAL CONDITIONS")
 
 costProducts = pd.read_csv('https://raw.githubusercontent.com/bgvinayk/ST-test/main/try.py')
 
-st.subheader(costProducts['PRODUCT'][1])
+st.subheader(str(costProducts['PRODUCT'][1]))
