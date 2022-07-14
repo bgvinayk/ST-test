@@ -1,0 +1,7 @@
+reaktoro
+streamlit
+numpy
+pandas
+scipy
+#csv
+# pickle5
