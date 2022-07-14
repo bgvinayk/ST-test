@@ -1,7 +1,7 @@
 #reaktoro
 streamlit
-numpy
-pandas
-scipy
+#numpy
+#pandas
+#scipy
 #csv
 # pickle5
