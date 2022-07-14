@@ -6,6 +6,6 @@ st.markdown("## Enter cooling tower parameters")
 st.subheader("MECHANICAL CONDITIONS")
 
 
-costProducts = pd.read_csv('https://github.com/bgvinayk/ST-test/blob/main/Model_Product_Costs.csv')
+costProducts = pd.read_csv('https://raw.githubusercontent.com/bgvinayk/ST-test/main/try.py')
 
 st.subheader(costProducts[0][0])
