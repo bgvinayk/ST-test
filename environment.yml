@@ -1,14 +1,10 @@
 name: env-name
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.9.12
   - brotlipy=0.7.0
   - reaktoro=1.*
-  - scipy
-  - numpy
-  - pandas
   - pip
   - pip:
     - streamlit==1.11.0
@@ -16,3 +12,6 @@ dependencies:
     - matplotlib
     - IPython
     - voila
+    - scipy
+    - numpy
+    - pandas
