@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from scipy.optimize import fsolve
 # from reaktoro import *
 
 st.title("Cooling Water Program Recommendation")
