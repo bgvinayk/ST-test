@@ -990,10 +990,10 @@ if st.button('Submit'):
     Corrosion_level = 'Moderate'
     Corrosion_target = Corrosion_df[Corrosion_level]
 
-    # costProducts = pd.read_csv('C:/Docs/Acku Predictor/Practice/Model_Product_Costs.csv')
-    # formProducts = pd.read_csv('C:/Docs/Acku Predictor/Practice/Model_Product_Formulations.csv')
-    costProducts = pd.read_csv('/app/Model_Product_Costs.csv')
-    formProducts = pd.read_csv('/app/Model_Product_Formulations.csv')
+    # costProducts = pd.read_csv('Model_Product_Costs.csv')
+    # formProducts = pd.read_csv('Model_Product_Formulations.csv')
+    costProducts = pd.read_csv('Model_Product_Costs.csv')
+    formProducts = pd.read_csv('Model_Product_Formulations.csv')
 
     singleScale = {'521S': {'lim': 150, 'limPO4': 2000, 'Cost': float(costProducts['Cur.Std.Cost/KG'][0])},
                 '522S': {'lim': 1.2, 'limPO4': 15000, 'Cost': float(costProducts['Cur.Std.Cost/KG'][1])},
@@ -1596,7 +1596,7 @@ if st.button('Submit'):
     
     data=pd.DataFrame({'LSI':[LSI],'coc':[opt_coc],'pH':[opt_pH],'SI_CaCO3':[SI_CaCO3],'SI_TCP':[SI_TCP],'SI_Gyp':[SI_Gyp],'SI_SiO2':[SI_SiO2],'mu_flow':[mu_flow],'evap_rate':[evap_rate],'Operation_days':[a_op],'HTI':[HTI],'Op_hours':[a_oph]})
     # write=pd.csvwriter('C:/Docs/Acku Predictor/Practice/model_results.csv')
-    data.to_csv('/app/model_results.csv')
+    data.to_csv('model_results.csv')
 
     if 'key' not in st.session_state:
         st.session_state['key'] = 1
@@ -1608,7 +1608,7 @@ if st.button('Submit'):
     ##------INTERNAL CALCULATIONS--------
 
 if 'key' in st.session_state:
-    df = pd.read_csv('/app/model_results.csv')
+    df = pd.read_csv('model_results.csv')
     # ['pH','Coc','LSI','Calcite Saturation','TCP Saturation','CaSO4 Saturation','Silica Saturation']
     LSI=df['LSI'][0]
     pH=df['pH'][0]
