@@ -1,5 +1,5 @@
 #reaktoro
-# streamlit
+streamlit
 # numpy
 # pandas
 # scipy
