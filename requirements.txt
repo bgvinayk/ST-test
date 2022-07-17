@@ -2,6 +2,6 @@
 streamlit
 numpy
 pandas
-# scipy
+scipy
 # csv
 # pickle5
