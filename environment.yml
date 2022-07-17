@@ -12,8 +12,7 @@ dependencies:
   - pip
   - pip:
     - streamlit==1.11.0
-#     - bokeh
-#     - pandas
-#     - matplotlib
-#     - IPython
-#     - voila
+    - bokeh
+    - matplotlib
+    - IPython
+    - voila
