@@ -5,7 +5,7 @@ from reaktoro import *
 
 # db = PhreeqcDatabase("minteq.v4.dat")
 
-# db = Phreeqc("databases/minteq.v4.dat")
+db = Phreeqc("databases/minteq.v4.dat")
 
 st.title("Cooling Water Program Recommendation")
 st.markdown("## Enter cooling tower parameters")
