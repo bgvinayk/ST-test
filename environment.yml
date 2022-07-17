@@ -1,0 +1,31 @@
+name: optima
+
+{% set python_version = os.environ.get("PY_VER", "3.7") %}
+
+channels:
+  - conda-forge
+
+dependencies:
+  - catch2=2
+  - ccache  # [unix]
+  - clangxx_osx-64  # [osx]
+  - clcache  # [win]
+  - cmake
+  - eigen4rkt
+  - gxx_linux-64  # [linux]
+  - ninja
+  - numpy
+  - pip
+  - pybind11
+  - pybind11-abi
+  - pybind11-stubgen
+  - pytest
+  - pytest-xdist
+  - python={{ python_version }}
+  - reaktoro
+  - vs2019_win-64  # [win]
+  - pip:
+    - mkdocs
+    - mkdocs-macros-plugin
+    - mkdocs-material
+    - pytest-regressions
