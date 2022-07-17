@@ -9,3 +9,4 @@ dependencies:
   - pip
   - pip:
     - streamlit==1.11.0
+    - iphreeqc-py==0.3.1
