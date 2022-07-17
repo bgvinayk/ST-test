@@ -3,7 +3,7 @@ import pandas as pd
 from scipy.optimize import fsolve
 from reaktoro import *
 
-db = PhreeqcDatabase("databases/minteq.v4.dat")
+db = PhreeqcDatabase("minteq.v4.dat")
 
 # db = Phreeqc("databases/minteq.v4.dat")
 
