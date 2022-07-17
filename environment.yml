@@ -5,4 +5,5 @@ channels:
 dependencies:
   - python=3.9.12
   - pip
-  - streamlit=1.10.0
+  - pip:
+      - streamlit=1.10.0
