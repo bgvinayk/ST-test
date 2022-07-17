@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.9.12
+  - brotlipy=0.7.0
   - pip
   - pip:
-    - brotlipy==0.7.0
     - streamlit==1.11.0
