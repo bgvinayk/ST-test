@@ -3,9 +3,9 @@ import pandas as pd
 from scipy.optimize import fsolve
 from reaktoro import *
 
-# db = PhreeqcDatabase("databases/minteq.v4.dat")
+db = PhreeqcDatabase("databases/minteq.v4.dat")
 
-db = Phreeqc("databases/minteq.v4.dat")
+# db = Phreeqc("databases/minteq.v4.dat")
 
 st.title("Cooling Water Program Recommendation")
 st.markdown("## Enter cooling tower parameters")
