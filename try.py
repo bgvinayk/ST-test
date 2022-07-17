@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from reaktoro import *
+# from reaktoro import *
 
 st.title("Cooling Water Program Recommendation")
 st.markdown("## Enter cooling tower parameters")
