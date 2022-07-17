@@ -6,4 +6,4 @@ dependencies:
   - python=3.9.12
   - pip
   - pip:
-    - streamlit==1.8.1
+    - streamlit==1.11.0
